@@ -1,18 +1,30 @@
-header {
-    background-color: rgb(47, 47, 47);
-    color: black;
+body {
+    background-color: #CBB0A2ff;
 }
 
-body {
-    background-color: black;
-    color: white;
+header {
+    background-color: #1E1B1Aff;
+    color: #CBB0A2ff;
+}
+
+main {
+    background-color: #1E1B1Aff;
+    color: #CBB0A2ff;
 }
 
 footer {
-    background-color: rgb(47, 47, 47);
-    color: gray;
+    background-color: #332024ff;
+    color: #CBB0A2ff;
+}
+
+strong {
+    color: #50232Cff;
+}
+
+span {
+    border: 1px solid #50232Cff;
 }
 
 a {
-    color: dodgerblue;
+    color: #50232Cff;
 }
