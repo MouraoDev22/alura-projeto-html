@@ -1,5 +1,6 @@
-body {
-    background-color: #CBB0A2ff;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -17,14 +18,14 @@ footer {
     color: #CBB0A2ff;
 }
 
-strong {
+a {
     color: #50232Cff;
 }
 
-span {
-    border: 1px solid #50232Cff;
+.titulo-destaque {
+    color: #50232Cff;
 }
 
-a {
+.paragrafo-destaque {
     color: #50232Cff;
 }
