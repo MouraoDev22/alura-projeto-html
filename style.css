@@ -86,3 +86,14 @@ body {
     border: 5px solid #CBB0A2ff;
     border-radius: 5px;
 }
+
+.apresentacao__conteudo__paragrafo__html {
+    color: #50232Cff;
+    transition: 0.1s;
+}
+
+.apresentacao__conteudo__paragrafo__html:hover {
+    color: #CBB0A2ff;
+    border: 3px inset #CBB0A2ff;
+    transition: 0.1s;
+}
