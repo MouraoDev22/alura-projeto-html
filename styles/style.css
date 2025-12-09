@@ -57,6 +57,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 5.125rem;
+    height: 100vh;
 }
 
 .apresentacao__conteudo {
