@@ -9,9 +9,9 @@
     --fonte-paragrafo: "Montserrat", sans-serif;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .cabecalho {
-        padding: 10%;
+        padding: 0;
     }
 
     .cabecalho__menu {
@@ -20,6 +20,8 @@
     
     .apresentacao {
         flex-direction: column-reverse;
+        gap: 1rem;
+        justify-content: center;
     }
 }
 
@@ -58,7 +60,6 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 5.125rem;
-    height: 100vh;
 }
 
 .apresentacao__conteudo {
@@ -135,8 +136,13 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
-    border: 0.1875rem solid var(--cor-secundaria);
+    border: 0.1875rem solid var(--cor-terciaria);
     border-radius: 0.1875rem;
+    filter: grayscale();
+}
+
+.apresentacao__imagem:hover {
+    background-image: -moz-radial-gradient();
 }
 
 .rodape {
@@ -158,8 +164,8 @@ body {
     text-decoration: none;
     color: var(--cor-terciaria);
     background-color: var(--cor-primaria);
-    border: 5px solid var(--cor-primaria);
-    border-radius: 8px;
+    border: 0.2rem solid var(--cor-primaria);
+    border-radius: 0.5rem;
     filter: brightness(2);
 }
 
