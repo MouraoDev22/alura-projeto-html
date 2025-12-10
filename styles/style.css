@@ -154,6 +154,15 @@ body {
     color: var(--cor-primaria);
 }
 
+.rodape__link:hover {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
+    border: 5px solid var(--cor-primaria);
+    border-radius: 8px;
+    filter: brightness(2);
+}
+
 .apresentacao__curriculo {
     padding: 5% 10%;
     display: flex;
